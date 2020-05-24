@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.section-title{
+    float: right;
+    clear: left;
+    font-size: 20px;
+    width: 150px;
+    text-align: right;
+}
+header{
+    position:relative;
+    background-color: chocolate;
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+p{
+    clear: right;
+}
+div{
+    position: absolute;
+    border: 2px solid black;
+    margin: 2px;
+    padding: 1px;
+    width: 100%;
+    clear: left;
+}
+.section-1{
+    margin: 0.5%;
+    height:175px;
+    padding: 2px;
+    clear: right;
+}
+.section-2{
+    margin: 0.5%;
+    height:175px;
+    padding: 2px;
+    clear: right;
+}
+.title-1{
+    background-color: cadetblue;
+}
+.title-2{
+    background-color: chartreuse;
+}
+.title-3{
+    background-color: crimson;
+}
+section{ 
+    padding: 2px; 
+    background-color: rgb(106, 155, 117);
+    font-size: 12px;
+    border: 1px solid black;
+    justify-content: space-between;
+    
+}
+
+@media(max-width:767px){
+    .section-1{
+    
+    float: left;
+    width: 99%;
+    }
+    .section-2{
+    
+    float: left;
+    width: 99%;
+    }
+}
+
+@media(max-width:991px) and (min-width:768px) {
+    .section-1{
+    
+    float: left;
+    width: 49%;
+
+    }
+    .section-2{
+    
+    float: left;
+    width: 99%;
+
+    }
+}
+@media(min-width:992px){
+    .section-1{
+     
+    float: left;
+    width: 32.3%;
+
+    }
+    .section-2{
+     
+    float: left;
+    width: 32.3%;
+
+    }
+}
